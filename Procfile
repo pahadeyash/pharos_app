@@ -1,1 +1,1 @@
-web: gunicorn app:app -c config.py --bind 0.0.0.0:${PORT}
+web: gunicorn app:app -c config.py --bind 0.0.0.0:${PORT} --timeout 999
