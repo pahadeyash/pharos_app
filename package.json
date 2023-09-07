@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "cacheDirectories": [
+    "frontend/node_modules"
+  ],
+  "scripts": {
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  }
+}
